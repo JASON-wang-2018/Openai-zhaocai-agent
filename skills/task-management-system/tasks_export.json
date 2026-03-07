@@ -1,0 +1,205 @@
+{
+  "tasks": [
+    {
+      "id": "T1771341880",
+      "title": "学习新技能",
+      "priority": "中",
+      "category": "学习",
+      "deadline": "2026-02-20 20:00",
+      "description": "学习 First Principles 和 Reasoning Personas",
+      "completed": false,
+      "created_at": "2026-02-17T23:24:40.975579",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341880",
+      "title": "运动30分钟",
+      "priority": "低",
+      "category": "健康",
+      "deadline": null,
+      "description": "有氧运动或力量训练",
+      "completed": false,
+      "created_at": "2026-02-17T23:24:40.976076",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "完成股票分析报告",
+      "priority": "高",
+      "category": "工作",
+      "deadline": "2026-02-18 18:00",
+      "description": "分析双系统模型和个股走势",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.335593",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "学习新技能",
+      "priority": "中",
+      "category": "学习",
+      "deadline": "2026-02-20 20:00",
+      "description": "学习 First Principles 和 Reasoning Personas",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.336002",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "运动30分钟",
+      "priority": "低",
+      "category": "健康",
+      "deadline": null,
+      "description": "有氧运动或力量训练",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.336997",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "完成3个股票分析",
+      "priority": "高",
+      "category": "工作",
+      "deadline": "2026-02-20 18:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.342952",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "学习2个新技能",
+      "priority": "中",
+      "category": "学习",
+      "deadline": "2026-02-22 20:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.343368",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "运动5次",
+      "priority": "中",
+      "category": "健康",
+      "deadline": "2026-02-22 22:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.344285",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "阅读2本书",
+      "priority": "低",
+      "category": "学习",
+      "deadline": "2026-02-28 20:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.345200",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "项目风险管理准备",
+      "priority": "高",
+      "category": "工作",
+      "deadline": "2026-02-19 18:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.345865",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "完成股票分析",
+      "priority": "高",
+      "category": "工作",
+      "deadline": "2026-02-18 18:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.347096",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "项目文档",
+      "priority": "中",
+      "category": "项目",
+      "deadline": "2026-02-20 18:00",
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.347448",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "任务A",
+      "priority": "高",
+      "category": "工作",
+      "deadline": null,
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.349895",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "任务B",
+      "priority": "中",
+      "category": "工作",
+      "deadline": null,
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.350446",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "任务C",
+      "priority": "低",
+      "category": "学习",
+      "deadline": null,
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.351244",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "任务1",
+      "priority": "高",
+      "category": "工作",
+      "deadline": null,
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.353199",
+      "completed_at": null
+    },
+    {
+      "id": "T1771341981",
+      "title": "任务2",
+      "priority": "中",
+      "category": "学习",
+      "deadline": null,
+      "description": "",
+      "completed": false,
+      "created_at": "2026-02-17T23:26:21.353703",
+      "completed_at": null
+    }
+  ],
+  "statistics": {
+    "total": 17,
+    "high_priority": 6,
+    "medium_priority": 7,
+    "low_priority": 4,
+    "overdue": 0,
+    "categories": {
+      "学习": 6,
+      "健康": 3,
+      "工作": 7,
+      "项目": 1
+    }
+  },
+  "exported_at": "2026-02-17T23:26:21.356147"
+}
