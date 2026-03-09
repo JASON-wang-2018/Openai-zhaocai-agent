@@ -8,6 +8,10 @@
     "find-skills-skill": {
       "version": "1.0.0",
       "installedAt": 1772846472984
+    },
+    "schedule": {
+      "version": "1.0.2",
+      "installedAt": 1772932992974
     }
   }
 }

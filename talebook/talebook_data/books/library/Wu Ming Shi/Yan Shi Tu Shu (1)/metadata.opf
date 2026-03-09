@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">1</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">aa606f06-0e36-4b0e-9197-3e52fba3e0be</dc:identifier>
+        <dc:title>演示图书</dc:title>
+        <dc:creator opf:file-as="无名氏" opf:role="aut">无名氏</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (7.6.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2022-05-13T16:00:00+00:00</dc:date>
+        <dc:description>这是一本好书，本内容仅作为演示而已</dc:description>
+        <dc:publisher>互联网</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">1652535352</dc:identifier>
+        <dc:language>zho</dc:language>
+        <dc:subject>Novel</dc:subject>
+        <meta name="calibre:timestamp" content="2026-03-01T06:04:03.269922+00:00"/>
+        <meta name="calibre:title_sort" content="演示图书"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

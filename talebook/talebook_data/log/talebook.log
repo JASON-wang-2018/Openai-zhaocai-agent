@@ -1,0 +1,274 @@
+[D 260308 13:55:44 main:157] Init library with [/data/books/library]
+[D 260308 13:55:44 main:158] Init AuthDB  with [sqlite:////data/books/calibre-webserver.db]
+[D 260308 13:55:44 main:159] Init Static  with [/var/www/talebook/webserver/resources]
+[D 260308 13:55:44 main:160] Init HTML    with [/var/www/talebook/webserver/../app/dist]
+[D 260308 13:55:44 main:161] Init Nuxtjs  with [/var/www/talebook/webserver/../app/.env]
+[I 260308 13:55:44 models:49] Bind modles._session()
+[I 260308 13:55:44 models:49] Bind modles._session()
+[I 260308 13:55:44 main:86] Using library path: [/data/books/library]
+[I 260308 13:55:44 main:86] Using library path: [/data/books/library]
+[I 260308 13:55:45 main:207] Initializing library database...
+[I 260308 13:55:45 main:207] Initializing library database...
+[I 260308 13:55:45 main:213] FTS disabled successfully
+[I 260308 13:55:45 main:213] FTS disabled successfully
+[I 260308 13:55:45 main:231] Patching calibre book names format...
+[I 260308 13:55:45 main:231] Patching calibre book names format...
+[I 260308 13:55:45 main:238] Patching calibre GUI requirement...
+[I 260308 13:55:45 main:238] Patching calibre GUI requirement...
+[I 260308 13:55:45 main:249] Loading default cover image...
+[I 260308 13:55:45 main:249] Loading default cover image...
+[I 260308 13:55:45 main:258] Database lock initialized
+[I 260308 13:55:45 main:258] Database lock initialized
+[I 260308 13:55:45 main:271] Now, Running...
+[I 260308 13:55:45 main:271] Now, Running...
+[I 260308 13:55:45 async_service:50] AsyncService setup completed
+[I 260308 13:55:45 async_service:50] AsyncService setup completed
+[I 260308 13:55:45 main:279] Initializing WebDAV service on /books path...
+[I 260308 13:55:45 main:279] Initializing WebDAV service on /books path...
+[I 260308 13:55:45 server:60] Creating WebDAV application with WsgiDAV v4.x configuration
+[I 260308 13:55:45 server:60] Creating WebDAV application with WsgiDAV v4.x configuration
+[I 260308 13:55:45 main:286] WebDAV service initialized successfully
+[I 260308 13:55:45 main:286] WebDAV service initialized successfully
+[D 260308 13:55:47 async_service:159] service register <fill_one>
+[D 260308 13:55:47 async_service:172] service register <fill_all>
+[D 260308 13:55:47 async_service:172] service register <send_mail>
+[D 260308 13:55:47 async_service:172] service register <send_book>
+[D 260308 13:55:47 async_service:172] service register <convert_and_send>
+[D 260308 13:55:47 async_service:172] service register <convert_and_save>
+[D 260308 13:55:47 async_service:172] service register <convert_all>
+[D 260308 13:55:47 async_service:172] service register <do_scan>
+[D 260308 13:55:47 async_service:172] service register <do_import>
+[D 260308 13:55:48 async_service:172] service register <parse_txt_content>
+[D 260308 13:55:48 selector_events:64] Using selector: EpollSelector
+[I 260308 13:55:48 async_service:50] AsyncService setup completed
+[I 260308 13:55:48 async_service:50] AsyncService setup completed
+[E 260308 13:55:48 async_service:182] [ASYNC] service call get_daily_books
+[E 260308 13:55:48 async_service:182] [ASYNC] service call get_daily_books
+[I 260308 13:55:48 async_service:117] ** Start Thread Service <get_daily_books> ** from BookBarnService
+[I 260308 13:55:48 async_service:117] ** Start Thread Service <get_daily_books> ** from BookBarnService
+[I 260308 13:55:48 main:341] Starting item to calibre sync service
+[I 260308 13:55:48 main:341] Starting item to calibre sync service
+[I 260308 13:55:48 async_service:132] create new session_id=2 for thread BookBarnService.get_daily_books
+[I 260308 13:55:48 async_service:132] create new session_id=2 for thread BookBarnService.get_daily_books
+[I 260308 13:55:48 async_service:133] call: func=get_daily_books
+[I 260308 13:55:48 async_service:133] call: func=get_daily_books
+[I 260308 13:55:48 book_barn:261] Start daily books checking
+[I 260308 13:55:48 book_barn:261] Start daily books checking
+[I 260308 13:55:48 async_service:50] AsyncService setup completed
+[I 260308 13:55:48 async_service:50] AsyncService setup completed
+[E 260308 13:55:48 async_service:182] [ASYNC] service call sync_items_to_calibre
+[E 260308 13:55:48 async_service:182] [ASYNC] service call sync_items_to_calibre
+[I 260308 13:55:48 async_service:117] ** Start Thread Service <sync_items_to_calibre> ** from ItemSyncService
+[I 260308 13:55:48 async_service:117] ** Start Thread Service <sync_items_to_calibre> ** from ItemSyncService
+[I 260308 13:55:48 main:407] Starting server...
+[I 260308 13:55:48 main:407] Starting server...
+[I 260308 13:55:48 async_service:132] create new session_id=3 for thread ItemSyncService.sync_items_to_calibre
+[I 260308 13:55:48 async_service:132] create new session_id=3 for thread ItemSyncService.sync_items_to_calibre
+[I 260308 13:55:48 async_service:133] call: func=sync_items_to_calibre
+[I 260308 13:55:48 async_service:133] call: func=sync_items_to_calibre
+[I 260308 13:55:48 item_sync:98] [Sync]Start syncing items to calibre custom columns
+[I 260308 13:55:48 item_sync:98] [Sync]Start syncing items to calibre custom columns
+[I 260308 13:55:48 item_sync:104] [Sync]No items found, sync completed
+[I 260308 13:55:48 item_sync:104] [Sync]No items found, sync completed
+[I 260308 13:55:48 async_service:138] end : func=sync_items_to_calibre
+[I 260308 13:55:48 async_service:138] end : func=sync_items_to_calibre
+[I 260308 13:55:48 book_barn:133] Current version is up-to-date.
+[I 260308 13:55:48 book_barn:133] Current version is up-to-date.
+[I 260308 14:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:40:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:40:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:55:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 14:55:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:40:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:40:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:55:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 15:55:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 16:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 16:10:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 16:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 16:25:48 book_barn:280] [BARN]Daily books checking, not enabled
+[D 260308 19:12:52 main:157] Init library with [/data/books/library]
+[D 260308 19:12:52 main:158] Init AuthDB  with [sqlite:////data/books/calibre-webserver.db]
+[D 260308 19:12:52 main:159] Init Static  with [/var/www/talebook/webserver/resources]
+[D 260308 19:12:52 main:160] Init HTML    with [/var/www/talebook/webserver/../app/dist]
+[D 260308 19:12:52 main:161] Init Nuxtjs  with [/var/www/talebook/webserver/../app/.env]
+[I 260308 19:12:52 models:49] Bind modles._session()
+[I 260308 19:12:52 models:49] Bind modles._session()
+[I 260308 19:12:52 main:86] Using library path: [/data/books/library]
+[I 260308 19:12:52 main:86] Using library path: [/data/books/library]
+[I 260308 19:12:53 main:207] Initializing library database...
+[I 260308 19:12:53 main:207] Initializing library database...
+[I 260308 19:12:53 main:213] FTS disabled successfully
+[I 260308 19:12:53 main:213] FTS disabled successfully
+[I 260308 19:12:53 main:46] No need to create key: [category] in calibre, already exists.
+[I 260308 19:12:53 main:46] No need to create key: [category] in calibre, already exists.
+[I 260308 19:12:53 main:46] No need to create key: [book_count] in calibre, already exists.
+[I 260308 19:12:53 main:46] No need to create key: [book_count] in calibre, already exists.
+[I 260308 19:12:53 main:46] No need to create key: [book_type] in calibre, already exists.
+[I 260308 19:12:53 main:46] No need to create key: [book_type] in calibre, already exists.
+[I 260308 19:12:53 main:231] Patching calibre book names format...
+[I 260308 19:12:53 main:231] Patching calibre book names format...
+[I 260308 19:12:53 main:238] Patching calibre GUI requirement...
+[I 260308 19:12:53 main:238] Patching calibre GUI requirement...
+[I 260308 19:12:54 main:249] Loading default cover image...
+[I 260308 19:12:54 main:249] Loading default cover image...
+[I 260308 19:12:54 main:258] Database lock initialized
+[I 260308 19:12:54 main:258] Database lock initialized
+[I 260308 19:12:54 main:271] Now, Running...
+[I 260308 19:12:54 main:271] Now, Running...
+[I 260308 19:12:54 async_service:50] AsyncService setup completed
+[I 260308 19:12:54 async_service:50] AsyncService setup completed
+[I 260308 19:12:54 main:279] Initializing WebDAV service on /books path...
+[I 260308 19:12:54 main:279] Initializing WebDAV service on /books path...
+[I 260308 19:12:54 server:60] Creating WebDAV application with WsgiDAV v4.x configuration
+[I 260308 19:12:54 server:60] Creating WebDAV application with WsgiDAV v4.x configuration
+[I 260308 19:12:54 main:286] WebDAV service initialized successfully
+[I 260308 19:12:54 main:286] WebDAV service initialized successfully
+[D 260308 19:12:57 async_service:159] service register <fill_one>
+[D 260308 19:12:57 async_service:172] service register <fill_all>
+[D 260308 19:12:58 async_service:172] service register <send_mail>
+[D 260308 19:12:58 async_service:172] service register <send_book>
+[D 260308 19:12:58 async_service:172] service register <convert_and_send>
+[D 260308 19:12:58 async_service:172] service register <convert_and_save>
+[D 260308 19:12:58 async_service:172] service register <convert_all>
+[D 260308 19:12:58 async_service:172] service register <do_scan>
+[D 260308 19:12:58 async_service:172] service register <do_import>
+[D 260308 19:12:58 async_service:172] service register <parse_txt_content>
+[D 260308 19:12:58 selector_events:64] Using selector: EpollSelector
+[I 260308 19:12:58 async_service:50] AsyncService setup completed
+[I 260308 19:12:58 async_service:50] AsyncService setup completed
+[E 260308 19:12:58 async_service:182] [ASYNC] service call get_daily_books
+[E 260308 19:12:58 async_service:182] [ASYNC] service call get_daily_books
+[I 260308 19:12:58 async_service:117] ** Start Thread Service <get_daily_books> ** from BookBarnService
+[I 260308 19:12:58 async_service:117] ** Start Thread Service <get_daily_books> ** from BookBarnService
+[I 260308 19:12:58 main:407] Starting server...
+[I 260308 19:12:58 main:407] Starting server...
+[I 260308 19:12:58 async_service:132] create new session_id=2 for thread BookBarnService.get_daily_books
+[I 260308 19:12:58 async_service:132] create new session_id=2 for thread BookBarnService.get_daily_books
+[I 260308 19:12:58 async_service:133] call: func=get_daily_books
+[I 260308 19:12:58 async_service:133] call: func=get_daily_books
+[I 260308 19:12:58 book_barn:261] Start daily books checking
+[I 260308 19:12:58 book_barn:261] Start daily books checking
+[I 260308 19:12:59 book_barn:133] Current version is up-to-date.
+[I 260308 19:12:59 book_barn:133] Current version is up-to-date.
+[I 260308 19:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 19:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 19:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 19:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 19:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 19:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 20:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 21:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 22:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260308 23:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 00:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 01:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:27:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:42:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 02:57:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:12:59 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:13:00 book_barn:133] Current version is up-to-date.
+[I 260309 03:13:00 book_barn:133] Current version is up-to-date.
+[I 260309 03:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 03:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 04:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 05:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 06:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 07:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:28:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:43:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 08:58:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 09:13:00 book_barn:280] [BARN]Daily books checking, not enabled
+[I 260309 09:13:00 book_barn:280] [BARN]Daily books checking, not enabled

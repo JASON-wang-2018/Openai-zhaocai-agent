@@ -1,0 +1,13 @@
+version: '3'
+services:
+  talebook:
+    image: poxenstudio/talebook
+    container_name: talebook
+    ports:
+      - "8080:80"
+    volumes:
+      - ./talebook_data:/data
+    environment:
+      - PUID=1000
+      - PGID=1000
+    restart: unless-stopped

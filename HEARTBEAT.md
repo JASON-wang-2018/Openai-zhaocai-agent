@@ -14,5 +14,5 @@
 - 执行 scripts/knowledge_learner.sh
 - 整合 learnings/ 到 MEMORY.md
 
-### 23:59 Git自动备份
+### 周日 23:59 Git自动备份
 - 备份workspace到git
