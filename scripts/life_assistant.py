@@ -11,8 +11,8 @@ import re
 import random
 from datetime import datetime
 
-# 钉钉Webhook
-DINGTALK_WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/dea464ec-019a-49f5-8c6f-3938759ed06e"
+# 飞书Webhook
+WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/dea464ec-019a-49f5-8c6f-3938759ed06e"
 
 def get_weather():
     """获取苏州天气"""
@@ -87,7 +87,7 @@ def send_dingtalk(message):
     }
     
     try:
-        r = requests.post(DINGTALK_WEBHOOK, headers=headers, data=json.dumps(data), timeout=10)
+        r = requests.post(WEBHOOK, headers=headers, data=json.dumps(data), timeout=10)
         if r.status_code == 200:
             result = r.json()
             if result.get('code') == 0:
