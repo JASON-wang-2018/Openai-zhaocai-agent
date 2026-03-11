@@ -1,0 +1,34 @@
+{
+  "tasks": {
+    "早安天气": {
+      "script": "scripts/life_assistant.py",
+      "retry": 2,
+      "interval": 600,
+      "enabled": true
+    },
+    "早盘股票知识": {
+      "script": "scripts/morning_stock_tips.py",
+      "retry": 2,
+      "interval": 600,
+      "enabled": true
+    },
+    "午间股市分析": {
+      "script": "scripts/market_analysis.py noon",
+      "retry": 2,
+      "interval": 600,
+      "enabled": true
+    },
+    "每日股市分析": {
+      "script": "scripts/stock_analysis.py",
+      "retry": 2,
+      "interval": 600,
+      "enabled": true
+    },
+    "收盘股市分析": {
+      "script": "scripts/market_analysis.py close",
+      "retry": 2,
+      "interval": 600,
+      "enabled": true
+    }
+  }
+}

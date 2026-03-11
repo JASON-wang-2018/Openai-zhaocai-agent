@@ -1,0 +1,27 @@
+{
+  "\u6bcf\u65e5\u80a1\u5e02\u5206\u6790": {
+    "time": "2026-03-11T17:15:02.025939",
+    "status": "success",
+    "script": "scripts/stock_analysis.py"
+  },
+  "\u6536\u76d8\u80a1\u5e02\u5206\u6790": {
+    "time": "2026-03-11T18:00:01.296953",
+    "status": "success",
+    "script": "scripts/market_analysis.py close"
+  },
+  "\u65e9\u5b89\u5929\u6c14": {
+    "time": "2026-03-11T07:15:01.572576",
+    "status": "success",
+    "script": "scripts/life_assistant.py"
+  },
+  "\u65e9\u76d8\u80a1\u7968\u77e5\u8bc6": {
+    "time": "2026-03-11T08:15:01.499229",
+    "status": "success",
+    "script": "scripts/morning_stock_tips.py"
+  },
+  "\u5348\u95f4\u80a1\u5e02\u5206\u6790": {
+    "time": "2026-03-11T12:00:01.936652",
+    "status": "success",
+    "script": "scripts/market_analysis.py noon"
+  }
+}

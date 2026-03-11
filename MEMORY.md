@@ -73,6 +73,25 @@
 
 ---
 
+## 提醒管理机制
+
+### 核心原则
+- 一次性提醒用 cron（`deleteAfterRun: true`），触发后自动删除
+- 用 isolated session + delivery 推送消息（稳定可靠）
+
+### 设置提醒
+- 一次性提醒用 cron job，设置 `deleteAfterRun: true`
+- 使用 isolated session + delivery 推送
+
+### 取消提醒
+- 直接用 cron remove 删除 job
+
+### 重要原则
+- cron job 是最可靠的触发器
+- 不需要额外 JSON 状态管理
+
+---
+
 ## 用户偏好
 - 勿扰时间：23:00 - 次日 6:00（不主动发送消息）
 - 重要约定必须立即记录到 memory
